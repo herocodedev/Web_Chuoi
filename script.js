@@ -1,10 +1,10 @@
 const timesBtn = document.querySelector('.icon-bars')
 const navMenu = document.querySelector('.nav-menu')
 const closeBtn = document.querySelector('.close')
-timesBtn.onclick = function(e) {
+timesBtn.onclick = function (e) {
     navMenu.style.transform = 'translateX(0%)'
 }
-closeBtn.onclick = function(e) {
+closeBtn.onclick = function (e) {
     navMenu.style.transform = 'translateX(-100%)'
 }
 
@@ -110,27 +110,27 @@ function renderProduct(className) {
     }
 }
 
-productsAll.onclick = function(e) {
+productsAll.onclick = function (e) {
     const ActiveEl = $('.active')
     ActiveEl.classList.remove('active')
     this.classList.add('active')
     renderProduct('all')
 }
 
-trendingProducts.onclick = function(e) {
+trendingProducts.onclick = function (e) {
     const ActiveEl = $('.active')
     ActiveEl.classList.remove('active')
     this.classList.add('active')
     renderProduct('iphone')
 }
 
-specialProducts.onclick = function(e) {
+specialProducts.onclick = function (e) {
     const ActiveEl = $('.active')
     ActiveEl.classList.remove('active')
     this.classList.add('active')
     renderProduct('samsung')
 }
-featuredProducts.onclick = function(e) {
+featuredProducts.onclick = function (e) {
     const ActiveEl = $('.active')
     ActiveEl.classList.remove('active')
     this.classList.add('active')
@@ -140,7 +140,7 @@ featuredProducts.onclick = function(e) {
 /* scroll to top */
 const topBtn = document.querySelector('.btn-top-view')
 console.log(topBtn)
-topBtn.onclick = function(e) {
+topBtn.onclick = function (e) {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -148,7 +148,7 @@ topBtn.onclick = function(e) {
 const heroEl = document.querySelector('.hero')
 const heroWidth = heroEl.offsetHeight
 
-document.onscroll = function(e) {
+document.onscroll = function (e) {
     let value = window.scrollY
 
     if (value > heroWidth / 2) {
