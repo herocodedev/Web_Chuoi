@@ -1,0 +1,53 @@
+/* Mobile,Tablet */
+
+@media only screen and (max-width: 63.975rem) {
+    .contact {
+        flex-direction: column;
+    }
+    .contact .contact-header {
+        margin: 12px 0;
+        text-align: center;
+    }
+}
+
+
+/* Mobile: width < 740px */
+
+@media only screen and (max-width: 46.1875rem) {
+    header .header {
+        width: 100%;
+    }
+    header .menu {
+        display: none;
+    }
+    /*icon-bars*/
+    .icon-bars {
+        display: block;
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+    .close {
+        cursor: pointer;
+    }
+    .product-detail {
+        margin-top: 2rem;
+        padding: 1rem 0rem;
+        cursor: pointer;
+        margin: auto;
+    }
+}
+
+
+/* Tablet: width >= 740px and width < 1024px */
+
+@media only screen and (min-width: 46.25rem) and (max-width: 63.9375rem) {
+    header .icon ul {
+        padding: 0;
+    }
+    .glide__arrow--left {
+        left: 6em !important;
+    }
+    .glide__arrow--right {
+        right: 6rem !important;
+    }
+}
