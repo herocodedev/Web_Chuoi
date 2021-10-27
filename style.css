@@ -20,7 +20,9 @@
   --green: #59b210;
   --blue: rgb(56, 10, 223);
 }
-
+html {
+  overflow-x: hidden;
+}
 body {
   transition: all linear 0.2s;
   font-family: "Roboto", sans-serif;
