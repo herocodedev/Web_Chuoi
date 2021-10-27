@@ -29,6 +29,17 @@
     border-radius: 8px;
     padding: 0 12px;
   }
+
+  .facility div p {
+    display: none;
+  }
+  .facility {
+    height: 160px;
+    padding-bottom: 0;
+  }
+  .author {
+    height: 500px;
+  }
 }
 
 /* Mobile: width < 740px */
